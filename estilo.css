@@ -1,0 +1,565 @@
+
+
+body {  /* COR DA PÁGINA */
+  background-color: white; /* COLOR */
+  margin: 0;
+  width: 100%;
+}
+
+header { /* ESTRUTURA DA MINHA BARRA*/
+    
+    height: 110px; /* ALTURA DA MINHA BARRA */
+    background-color: #FFF159; /* COLOR DA MINHA BARRA */
+}
+ /* TEXTOS EM CIMA*/
+ 
+ 
+ /* IMAGEM MERCADO LIVRE */
+ .logo-and-search {
+    display: flex;  
+}
+
+.logo img {
+    margin-top: 17px;
+    max-width: 150px;
+    height: auto;
+    margin-left: 60px;
+    height: 30px;
+}
+/* FECHAMENTO DA FOTO */
+
+
+.search-bar img {/* FOTO DA DISNEY E SUAS FUNÇÕES */
+  float: right; /* POSICIONAMENTO  */
+  width: 30%; /* ALTURA DA MINHA FOTO*/
+  margin-right: 150px; /* ESPAÇAMENTO DA MINHA DIREITA */
+  margin-top: -45px; /* MARGIN DO MEU TOP */
+}
+
+.search-bar { /* MEU INPUT E BARRA DE PESQUISA*/
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.search-bar input { /* dentro da minha barra de pesquisa */
+    padding: 10px 0px 10px 300px;
+    display: flex;
+    border: 1px solid #ccc;
+    padding-left: 30px; /* Espaçamento à esquerda para acomodar a imagem */
+    background-image: url('pesquisa.png'); 
+    background-repeat: no-repeat; /* Evita que a imagem se repita no input */
+    background-size: 30px; /* Tamanho da imagem */
+    background-position: right center ; /* Posicionamento da imagem (à esquerda e centralizado verticalmente) */
+    width: 500px; 
+    margin-right: 600px;
+    
+  }
+
+  #disney-img img  { /* Imagem do logo Disney */
+    margin-top: -35px;
+    margin-right: 150px;
+  }
+
+.expansivel, .custom-list{ /* centralização dos elementos texto */
+  align-items: center;
+  
+ 
+}
+
+
+  .expansivel {         /* Texto Categorias  */
+    margin-top: 90px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .expansivel p {
+    margin: 0;
+    padding: 0;
+   
+    margin-top: 33px;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Estilo das opções escondidas */
+  .opcoes {
+    display: none;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -3px; /* Ajusta a margem para ficar em cima da imagem */
+    position: absolute;
+    z-index: 1; /* Garante que as opções fiquem acima da imagem */
+  }
+  
+  .opcoes li {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    margin-right: 30px;
+  }
+  
+  /* Estilo das opções quando o mouse passa por cima */
+  .expansivel:hover .opcoes {
+    display: flex;
+  }
+
+  .custom-list {   /* PRIMEIRA COLUNA DE TEXTO */
+  
+    padding: 0; /* Espaçamentos */
+    margin: 0;  /* Espaçamentos */
+    display: flex; 
+    margin-left: 430px; /* Espaçamento do lado esquerdo */
+    margin-top: -30px; /* Espaçamento do topo */
+
+  }
+  
+  .custom-list li { /* Texto Dentro do Ul */
+    display: inline;
+    margin-right: 0px;
+    padding: 0;
+    margin-left: 10px;/* Espaçamento das frases */
+  }
+  
+ .custom-list li a { /* TEXTO COM OS LINK URL*/
+  
+  margin-right: 1px;
+  padding: 0;
+  text-decoration: none;
+  color: black
+ }
+            
+                   /*                        ABERTURA                       */
+
+
+  .banner {                           /* BANNER */
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+    max-width: auto;
+    margin: 0 auto;
+}
+
+#banner-image {
+ max-width: 100%;
+    width: auto;
+    max-height: 100%;
+}
+
+.left-button,
+.right-button {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 30px;
+    
+}
+
+.left-button {
+    left: 10px;
+}
+
+.right-button {
+    right: 10px;
+}
+
+      /*                        ABERTURA                       */
+
+.nav-menu-item { /*      CENTRALIZADO EM BAIXO DO LOGO DO MERCADOLIVRE            */
+  display: flex;
+  margin-top: 55px;
+  margin-left: -110px;
+}
+#text-nav p {  
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-top: -30px;
+  margin-left: 30px;
+}
+#text-nav img {
+  
+  max-width: 100%;
+  height: 20px;
+  max-height: auto;
+}
+
+      /*                        FECHAMENTO                      */    
+
+
+
+
+        /*                        ABERTURA                       */
+
+
+
+.custom-lis2, .car-img {   /* PRIMEIRA COLUNA DE TEXTO */
+    float: right;
+    padding: 0; /* Espaçamentos */
+    margin: 0;  /* Espaçamentos */
+    display: flex; 
+    margin-top: -18px;
+    margin-right: 80px;
+   
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .custom-lis2 li { /* Texto Dentro do Ul */
+    display: inline;
+    margin-left: 10px;
+    
+  }
+  
+ .custom-lis2 li a { /* TEXTO COM OS LINK URL*/
+  
+  display: flex;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: black
+ }
+ 
+
+        /* Carrinho topo*/
+ .car-img img { /* carrinho */
+  width: 25px; /* tamanho */
+  padding: 0;
+  margin: 0;
+ }
+ .car-img {
+  margin-top: -5px;
+ }
+ 
+ 
+/* FECHAMENTO */
+
+.img_column {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+
+.img_column img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+height: 230px;
+  
+}
+
+.img_coluna {
+  margin-left: 20px;
+}
+
+/* abertura */
+
+#text_principal{ /* alinhamento do text */
+  text-align: center; /* centralização */
+  margin-top: 60px;
+}
+#text_principal span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #727070;
+
+}
+/* fechamento */
+
+/* abertura */
+
+#column-text{
+  
+margin-top: 80px;
+margin-left: 90px;
+}
+#column-text span {
+
+color: black;
+padding: 0;
+margin: 0;
+}
+
+#column-text span a {
+  text-decoration: none;
+  color: rgb(114, 114, 226);
+}
+
+ /* FECHAMENTO */
+
+.Coluna-1 {
+  margin-top: 23px;
+  height: 330px;
+  width: 180px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+          /* Cor quando passo o mouse */  
+.Coluna-1:hover {
+transform: translateZ(10px);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+        
+.Coluna-1 img {     /* minha imagem */
+max-width: 100%;    /*  */
+height: auto;
+}
+.meu-sup { /* meu sub titulo */
+  color:rgb(99, 98, 98);
+  text-decoration: line-through;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 12px;
+}
+
+.meu-sup sup { /* meu texto */
+  margin-top: 30px;
+
+}
+.text-color {  /* meu preço */
+  color: black;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: 05px;
+  margin-left: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+ 
+}
+.text-color sup { /* meu sup titulo */
+  margin-top: 5px;
+  color: #00a650;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+.text-color sub { /* meu subtitulo */
+  color:#00a650;
+  font-size: 12PX;
+  margin-top: 4px;
+  margin-left: 3px;
+}
+
+.text-color2, span, sup {/* color do meu textos */
+  color: #00a650;
+}
+.text-color2, span { /* texto 10x  */
+  margin-left: 10px;
+}
+
+.Coluna-1 h3 { /* texto final */
+  margin-left: 10px;
+  float: left;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #727070
+}
+#text-color {
+ float: left;
+ margin: 0;
+ padding: 0;
+ margin-left: 10px;
+}
+
+
+ /* Final do meu algoritmo */
+
+
+.Coluna-2 {
+margin-top: -2px;
+height: 330px;
+width: 180px;
+background-color: #fff;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+transition: transform 0.2s, box-shadow 0.2s;
+display: inline-block;
+padding: 20px;
+cursor: pointer;
+margin-left: 30px;
+        
+}
+                  /* Cor quando passo o mouse */  
+.Coluna-2:hover {
+transform: translateZ(10px);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+                
+.Coluna-2 img {     /* minha imagem */
+max-width: 100%;    /*  */
+height: auto;
+}
+
+.meu-sup-2 { /* meu sub titulo */
+color:rgb(99, 98, 98);
+text-decoration: line-through;
+font-size: 12px;
+margin: 0;
+padding: 0;
+display: flex;
+margin-left: 12px;
+}
+        
+.meu-sup-2 sup { /* meu texto */
+margin-top: 30px;
+        
+}
+.text-color-1 {  /* meu preço */
+color: black;
+display: flex;
+margin: 0;
+padding: 0;
+margin-top: 09px;
+margin-left: 12px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+         
+}
+.text-color-1 sup { /* meu sup titulo */
+margin-top: 5px;
+color: #00a650;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+.text-color-1 sub { /* meu subtitulo */
+color:#00a650;
+font-size: 12PX;
+margin-top: 4px;
+margin-left: 3px;
+}
+        
+.text-color-2, span, sup {/* color do meu textos */
+color: #00a650;
+}
+.text-color-2, span { /* texto 10x  */
+margin-left: 10px;
+}
+        
+.Coluna-2 h3 { /* texto final */
+margin-left: 10px;
+float: left;
+text-decoration: none;
+font-size: 14px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: #727070
+}
+#text-color-1 {
+float: left;
+margin: 0;
+padding: 0;
+margin-left: 10px;
+}    
+/* Final do meu algoritmo */
+
+#banner_foto img {
+  height: 100%;
+  left: 0;
+  max-width: 100%;
+  }
+  #banner_foto {
+    margin-top: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  
+  #banner_foto_2, #banner_foto_2, img {
+    margin-top: 10px;
+    width: auto;
+    height: 100%;
+  
+  }           /* Final do meu algoritmo */
+
+
+/* primeiro texto da página */             
+#text_container { /* alinhamento do meu texto */
+ margin-top: 90px;  /* meu alinhamento do meu top */
+ text-align: center;
+}
+#text_container h2 { /* meu texto */
+  color: black;
+  font-family: Arial, Helvetica, sans-serif; 
+}         /* fechamento */
+
+
+/* minha coleção abertura */
+
+
+.carrousel_item_0, 
+.carrousel_item_1, 
+.carrousel_item_2,
+.carrousel_item_3,
+.carrousel_item_4,
+.carrousel_item_5,
+.carrousel_item_6,
+.carrousel_item_7 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+        
+
+.carrousel_item_0 { /* meu espaçamento da foto e texto */
+  margin-left: 150px; /* espaçamento lado esquerdo */
+  margin-top: 60px; /* margin do meu topo */  
+}
+.carrousel_item_1,
+.carrousel_item_2,
+.carrousel_item_3,
+.carrousel_item_4,
+.carrousel_item_5,
+.carrousel_item_6,
+.carrousel_item_7,
+.carrousel_item_8 { /* meu espaçamento da foto e texto */
+  margin-left: 50px;
+}
+/* fechamento */
+
+
+/* Abertura */
+.carrousel_item_0 img,
+.carrousel_item_1 img,
+.carrousel_item_2 img,
+.carrousel_item_3 img,
+.carrousel_item_4 img,
+.carrousel_item_5 img,
+.carrousel_item_6 img,
+.carrousel_item_7 img  { /* minha imagem */
+  width: 80px;
+  height: 100%;
+}/* FECHAMENTO */
+
+
+
+/* abertura*/
+.carrousel_item_0 h3,
+.carrousel_item_1 h3,
+.carrousel_item_2 h3,
+.carrousel_item_3 h3,
+.carrousel_item_4 h3,
+.carrousel_item_5 h3,
+.carrousel_item_6 h3,
+.carrousel_item_7 h3 { /* meu texto */
+  margin-left: 1px;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}/* FECHAMENTO*/
+
+
+
+
