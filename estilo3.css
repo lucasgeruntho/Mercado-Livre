@@ -91,7 +91,7 @@ body {  /* COR DA PÁGINA */
     
     .texto-com-opcoes.clicked + .opcoes-1234,
     .texto-com-opcoes.clicked:hover + .opcoes-1234 {
-     
+      display: block;
     }
     
 
